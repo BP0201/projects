@@ -1,2 +1,3 @@
-# projects
-Projects made by only me.
+# Project Repository
+
+Contains projects made only by me.
