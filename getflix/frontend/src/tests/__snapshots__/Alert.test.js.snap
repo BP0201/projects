@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-danger"
+    role="alert"
+  >
+    <p
+      class="m-0 small"
+      data-testid="alert-p"
+    >
+      Hello
+    </p>
+    <p
+      class="m-0 small"
+      data-testid="alert-p"
+    >
+      This is a test
+    </p>
+  </div>
+</DocumentFragment>
+`;

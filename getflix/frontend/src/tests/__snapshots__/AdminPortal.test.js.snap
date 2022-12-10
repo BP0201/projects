@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="AdminPortal container"
+  >
+    <h1
+      class="display-4"
+    >
+      Admin Portal
+    </h1>
+    <h3>
+      All Users:
+    </h3>
+    <ul
+      data-testid="ap-user-list"
+    />
+  </div>
+</DocumentFragment>
+`;

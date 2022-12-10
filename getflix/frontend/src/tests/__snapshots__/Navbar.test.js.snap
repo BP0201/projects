@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for admin users 1`] = `
+<DocumentFragment>
+  <div
+    class="Navbar container-fluid m-0 px-0"
+  >
+    <nav
+      class="row navbar navbar-expand-sm navbar-dark"
+      style="background-color: rgb(0, 51, 102);"
+    >
+      <ul
+        class="navbar-nav align-items-center"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            aria-current="page"
+            class="navbar-brand active"
+            href="/"
+          >
+            <h1
+              class="Getflix-logo-h1 my-0 mx-2"
+            >
+              getFlix
+            </h1>
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/search"
+          >
+            Search
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/favorites"
+          >
+            Favorites
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/settings"
+          >
+            Settings
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="navbar-logout-link"
+            href="/logout"
+          >
+            Logout
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="navbar-ap-link"
+            href="/adminportal"
+          >
+            AP
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged in 1`] = `
+<DocumentFragment>
+  <div
+    class="Navbar container-fluid m-0 px-0"
+  >
+    <nav
+      class="row navbar navbar-expand-sm navbar-dark"
+      style="background-color: rgb(0, 51, 102);"
+    >
+      <ul
+        class="navbar-nav align-items-center"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            aria-current="page"
+            class="navbar-brand active"
+            href="/"
+          >
+            <h1
+              class="Getflix-logo-h1 my-0 mx-2"
+            >
+              getFlix
+            </h1>
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/search"
+          >
+            Search
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/favorites"
+          >
+            Favorites
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/settings"
+          >
+            Settings
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="navbar-logout-link"
+            href="/logout"
+          >
+            Logout
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <div
+    class="Navbar container-fluid m-0 px-0"
+  >
+    <nav
+      class="row navbar navbar-expand-sm navbar-dark"
+      style="background-color: rgb(0, 51, 102);"
+    >
+      <ul
+        class="navbar-nav align-items-center"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            aria-current="page"
+            class="navbar-brand active"
+            href="/"
+          >
+            <h1
+              class="Getflix-logo-h1 my-0 mx-2"
+            >
+              getFlix
+            </h1>
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="navbar-login-link"
+            href="/login"
+          >
+            Login
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            href="/signup"
+          >
+            Signup
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</DocumentFragment>
+`;

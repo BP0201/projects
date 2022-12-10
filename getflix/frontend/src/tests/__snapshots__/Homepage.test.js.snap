@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot when logged in 1`] = `
+<DocumentFragment>
+  <div
+    class="Homepage"
+  >
+    <div
+      class="container col-sm-6 col-md-12 col-lg-10"
+    >
+      <h4
+        class="display-4 my-3 text-center"
+        data-testid="trending-header"
+      >
+        What's Hot 
+        <span
+          aria-label="flame_emoji"
+          role="img"
+        >
+          🔥🔥
+        </span>
+      </h4>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when logged out 1`] = `
+<DocumentFragment>
+  <div
+    class="Homepage"
+  >
+    <div
+      class="container col-md-6 col-lg-12"
+    >
+      <div
+        class="row justify-content-center"
+      >
+        <div
+          class="card col-4 my-5 shadow"
+        >
+          <div
+            class="card-body"
+          >
+            <h3
+              class="card-title text-center"
+            >
+              Already have an account?
+            </h3>
+            <a
+              class="link"
+              data-testid="login-link"
+              href="/login"
+            >
+              Click here to login
+            </a>
+            <br />
+            <span>
+              Or 
+              <a
+                class="link"
+                href="/signup"
+              >
+                signup
+              </a>
+               here.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row text-center"
+      >
+        <div
+          class="mt-5 col"
+        >
+          <h1
+            class="Title"
+          >
+            Getflix
+          </h1>
+        </div>
+      </div>
+      <div
+        class="Intro text-center"
+      >
+        <div
+          class="row mt-5 mb-3"
+        >
+          <h2
+            class="col"
+          >
+            Browse movies and shows from all over the world.
+          </h2>
+        </div>
+        <div
+          class="row"
+        >
+          <p
+            class="col"
+          >
+            The information available on this website comes from The Movie Database API.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
